@@ -84,7 +84,21 @@ a:hover {
 	color: #FFFFFF;
 	opacity: 1;
 }
-
+.dropdown-menu {
+	border-color: #FFFFFF;
+}
+.dropdown-menu>li>a {
+	color: #53CE8E;
+	background: #FFFFFF;
+}
+.dropdown-menu>li>a:hover {
+	color: #FFFFFF;
+	background: #53CE8E;
+}
+.navbar-inverse .navbar-nav>.open>a:focus {
+	background: #FFFFFF;
+	color: #53CE8E;
+}
 
 /* Header Styling */
 #header {
@@ -396,6 +410,9 @@ footer p {
 #result p {
 	display: inline-block;
 	float:left;
+}
+#endthumb {
+	display: inline-block;
 }
 /* ==== Media Queries ====*/
 * iPads (Tablets) ----------- */
