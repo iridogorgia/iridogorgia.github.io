@@ -1,0 +1,60 @@
+@media only screen and (max-width : 768px) {
+  .img-responsive, .overlay {
+    max-width: 80%;
+    margin-left: 10%;
+  }
+  #picEmily {
+    margin-bottom: 50px;
+    max-width: 60%;
+    margin-left: 20%;
+    border-radius: 10%;
+  }
+}
+
+#picEmily, .img-responsive, .overlay {
+  border: none;
+  border-radius: 10%;
+}
+
+#about {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+footer {
+  margin-top: 0;
+}
+
+.social-media {
+  padding-top: 20px;
+}
+
+#hamburgerNav {
+  border-color: white;
+}
+
+#hamburgerNav:hover {
+  border-right: #53CE8E;
+  background-color: white;
+}
+
+#hamburgerNav:hover span.icon-bar{
+    background-color: #53CE8E;
+}
+
+#hamburgerNav:focus {
+  border-right: #53CE8E;
+  background-color: white;
+}
+
+#hamburgerNav:focus span.icon-bar{
+    background-color: #53CE8E;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #53CE8E;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form, .collapse {
+  background-color: transparent;
+}
