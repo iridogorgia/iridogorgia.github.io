@@ -1,15 +1,18 @@
 /*Custom Style*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans')
 body {
 	font-family:'Montserrat',sans-serif;
+	font-family: 'Open-Sans',sans-serif;
 }
 
 .title {
 	font-size:5em;
 	display:block;
 	text-align: center;
-	font-weight: 700;
+	font-weight: 400;
+	font-family: 'Open-Sans',sans-serif;
 }
 h2.description {
 	font-size: 2em;
@@ -18,6 +21,7 @@ h2.description {
 	margin: 0;
 	color: #53CE8E;
 	margin-bottom: 10px;
+	font-family: 'Open-Sans',sans-serif;
 }
 #design h2.description {
 	font-size: 2em;
@@ -26,6 +30,16 @@ h2.description {
 	margin: 0;
 	color: #53CE8E;
 	margin-bottom: 10px;
+	font-family: 'Open-Sans',sans-serif;
+}
+h2.subtitle {
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: left;
+	margin: 0;
+	color: #53CE8E;
+	margin-bottom: 10px;
+	font-family: 'Open-Sans',sans-serif;
 }
 hr.star {
 	margin:25px auto 30px;
@@ -51,6 +65,7 @@ hr.star:after {
 	color: #53CE8E;
 	font-size: 24px;
 	text-align: left;
+	font-family: 'Open-Sans',sans-serif;
 }
 h4 {
 	font-size: 17px;
@@ -409,6 +424,7 @@ footer p {
 	font-size: 4em;
 	font-weight: lighter;
 	text-align: left;
+	font-family: 'Open-Sans',sans-serif;
 
 }
 #design p {
@@ -417,6 +433,9 @@ footer p {
 }
 #design b {
 	color: #53CE8E;
+}
+#design .rec {
+	margin-bottom: 15px;
 }
 /*Result Project Page Styling*/
 #result {
@@ -428,9 +447,23 @@ footer p {
 	font-size: 4em;
 	font-weight: lighter;
 	text-align: left;
+	font-family: 'Open-Sans',sans-serif;
 
 }
 #result p {
+	display: inline-block;
+	float:left;
+}
+/*Next Steps Project Page Styling*/
+#next .title {
+	color: #53CE8E;
+	font-size: 4em;
+	font-weight: lighter;
+	text-align: left;
+	font-family: 'Open-Sans',sans-serif;
+
+}
+#next p {
 	display: inline-block;
 	float:left;
 }
@@ -573,8 +606,9 @@ p.lead {
 	font-weight:900;
 	line-height:45px;
 }
-#about img{
+#about .img{
 	margin-bottom: 10px;
+	border: none;
 }
 #roles p{
 	font-size: 12px;
@@ -590,9 +624,4 @@ body {
 .starter-template {
 	padding: 40px 15px;
 	text-align: center;
-}
-
-.img {
-	border: none;
-	border-radius: 10%;
 }
